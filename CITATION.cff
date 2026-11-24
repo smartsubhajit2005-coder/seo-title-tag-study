@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this dataset, cite it as below."
+title: "SEO title tag study: 99 high-traffic homepages"
+abstract: "Title tags, meta descriptions and on-page basics of 99 high-traffic homepages, measured with one HTTPS GET per homepage on 2026-11-21. 78 homepages returned HTML; the figures cover those 78 rows."
+authors:
+  - name: "TML SEO Tools"
+    website: "https://tmlseo.freedev.app"
+date-released: 2026-11-21
+license: CC-BY-4.0
+url: "https://github.com/smartsubhajit2005-coder/seo-title-tag-study"
+repository-code: "https://github.com/smartsubhajit2005-coder/seo-title-tag-study"
+keywords:
+  - seo
+  - title-tags
+  - meta-descriptions
+  - dataset
+  - open-data
+preferred-citation:
+  type: dataset
+  title: "SEO title tag study: 99 high-traffic homepages"
+  authors:
+    - name: "TML SEO Tools"
+  year: 2026
+  url: "https://github.com/smartsubhajit2005-coder/seo-title-tag-study"
