@@ -4,16 +4,13 @@
 <https://tmlseo.freedev.app/research/title-tags/>: 78 homepages that answered with
 HTML on 2026-11-21, one row each.
 
-## One known inconsistency, stated plainly
+## The length columns match the text
 
-The Slack row's meta description contains two zero-width non-joiner characters that
-the page uses for line breaking. They are invisible and do not survive copy and paste,
-so the text stored here does not contain them — but `description_len` keeps the
-capture's **173**, which counted them, because that column mirrors the site's
-published CSV. Calling `len()` on the stored text gives **171**.
-
-No other cell differs from the site's capture, and neither figure changes any headline
-number: both round to the same median.
+`title_len` and `description_len` are the character counts measured from the live
+page, and the stored text preserves the characters that were counted. That includes
+two zero-width non-joiner characters in the Slack row's meta description, which the
+page uses for line breaking and which are invisible in an editor. Calling `len()` on
+any row's text reproduces the number in its length column.
 
 ## Five rows are not real measurements
 
